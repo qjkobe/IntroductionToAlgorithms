@@ -45,6 +45,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Chapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
       </list>
     </option>
   </component>
