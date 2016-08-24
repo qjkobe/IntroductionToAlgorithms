@@ -38,8 +38,8 @@
       <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3355932">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.8804348">
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -68,6 +68,8 @@
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
+        <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
+        <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/ParentRunner.class" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/Sort.java" />
       </list>
     </option>
@@ -115,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,6 +201,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -212,7 +214,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="D:\Node.js\node.exe" />
   </component>
-  <component name="RunManager" selected="JUnit.Sort.TestMH">
+  <component name="RunManager" selected="JUnit.Sort.TestBMH">
     <configuration default="false" name="Sort.TestIS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chapter2" />
@@ -284,6 +286,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Sort" />
       <option name="METHOD_NAME" value="TestMH" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sort.TestBMH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <option name="METHOD_NAME" value="TestBMH" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -908,18 +931,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestIS" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestBA" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestMS" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Sort.TestBMH" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestMS" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestBA" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Sort.TestIS" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestBMH" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestMS" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Sort.TestBA" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Sort.TestIS" />
       </list>
     </recent_temporary>
   </component>
@@ -934,34 +959,35 @@
       <option name="number" value="Default" />
       <updated>1471863346524</updated>
       <workItem from="1471863348507" duration="6638000" />
-      <workItem from="1471948114606" duration="4530000" />
+      <workItem from="1471948114606" duration="5092000" />
+      <workItem from="1472047714331" duration="1173000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 04m 40s.xml">
+    <history-entry file="Sort_TestBMH - 2016.08.24 at 22h 22m 23s.xml">
+      <configuration name="Sort.TestBMH" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sort_TestBMH - 2016.08.24 at 22h 23m 51s.xml">
+      <configuration name="Sort.TestBMH" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sort_TestBMH - 2016.08.24 at 22h 24m 08s.xml">
+      <configuration name="Sort.TestBMH" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sort_TestBMH - 2016.08.24 at 22h 27m 46s.xml">
+      <configuration name="Sort.TestBMH" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sort_TestMH - 2016.08.24 at 22h 23m 04s.xml">
       <configuration name="Sort.TestMH" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 06m 38s.xml">
+    <history-entry file="Sort_TestMH - 2016.08.24 at 22h 24m 49s.xml">
       <configuration name="Sort.TestMH" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 07m 20s.xml">
+    <history-entry file="Sort_TestMH - 2016.08.24 at 22h 25m 30s.xml">
       <configuration name="Sort.TestMH" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 17m 34s.xml">
+    <history-entry file="Sort_TestMH - 2016.08.24 at 22h 27m 31s.xml">
       <configuration name="Sort.TestMH" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 17m 43s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.23 at 20h 20m 19s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestMS - 2016.08.22 at 20h 48m 36s.xml">
-      <configuration name="Sort.TestMS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestMS - 2016.08.22 at 20h 48m 42s.xml">
-      <configuration name="Sort.TestMS" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sort_TestMS - 2016.08.22 at 20h 48m 59s.xml">
       <configuration name="Sort.TestMS" configurationId="JUnit" />
@@ -971,10 +997,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11168000" />
+    <option name="totallyTimeSpent" value="12903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1041,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1024,6 +1050,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1036,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22147651">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.07457627">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,10 +1136,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.892857">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6197183">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3355932">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.8804348">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding />
         </state>
       </provider>
