@@ -15,10 +15,9 @@ public class Sort {
         return (i - 1) / 2;
     }
 
-    public void MaxHeapify(int[] A, int i){
+    public void MaxHeapify(int[] A, int i, int heapSize){
         int l = left(i);
         int r = right(i);
-        int heapSize = A.length;
         int largest;
         if(l < heapSize && A[l] > A[i]){
             largest = l;
@@ -35,7 +34,7 @@ public class Sort {
         }else{
             return;
         }
-        MaxHeapify(A, largest);
+        MaxHeapify(A, largest, heapSize);
     }
 
     /**没有递归的最大堆排序
@@ -70,14 +69,35 @@ public class Sort {
     public void BuildMaxHeap(int[] A){
         int heapsize = A.length;
         for(int i = (heapsize - 1) / 2; i >= 0; i--){
-            MaxHeapify(A, i);
+            MaxHeapify(A, i, heapsize);
+        }
+    }
+
+    public void HeapSort(int[] A){
+        BuildMaxHeap(A);
+        int length = A.length, heapSize = A.length;
+        for(int i = length - 1; i > 0; i--){
+            int temp = A[i];
+            A[i] = A[0];
+            A[0] = temp;
+            heapSize = heapSize - 1;
+            MaxHeapify(A, 0, heapSize);
+        }
+    }
+
+    @Test
+    public void TestHS(){
+        int[] A = new int[]{16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
+        HeapSort(A);
+        for(int x : A){
+            System.out.print(x + " ");
         }
     }
 
     @Test
     public void TestMH(){
         int[] A = new int[]{16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
-        MaxHeapify(A, 1);
+        MaxHeapify(A, 1, A.length);
         for(int x : A){
             System.out.print(x + " ");
         }
