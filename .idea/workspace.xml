@@ -39,17 +39,49 @@
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="94" selection-end-column="9" />
+              <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortDesc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Maximum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48135594">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortDesc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9627119">
-              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -80,8 +112,10 @@
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/ParentRunner.class" />
         <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Sort.java" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java" />
+        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Heap.java" />
+        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Sort.java" />
+        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java" />
       </list>
     </option>
   </component>
@@ -216,28 +250,7 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Node.js\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.SortDesc.TestHS">
-    <configuration default="false" name="Sort.TestMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Sort" />
-      <option name="METHOD_NAME" value="TestMS" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Maximum.TestMHI">
     <configuration default="false" name="Sort.TestMH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chapter6" />
@@ -246,27 +259,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Sort" />
       <option name="METHOD_NAME" value="TestMH" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sort.TestBMH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter6" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Sort" />
-      <option name="METHOD_NAME" value="TestBMH" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -309,6 +301,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SortDesc" />
       <option name="METHOD_NAME" value="TestHS" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Maximum.TestHIK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Maximum" />
+      <option name="METHOD_NAME" value="TestHIK" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Maximum.TestMHI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Maximum" />
+      <option name="METHOD_NAME" value="TestMHI" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -934,19 +968,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestMS" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestBMH" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Maximum.TestMHI" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Sort.TestBMH" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Sort.TestMS" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Maximum.TestMHI" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
       </list>
     </recent_temporary>
   </component>
@@ -964,31 +998,28 @@
       <workItem from="1471948114606" duration="5092000" />
       <workItem from="1472047714331" duration="1751000" />
       <workItem from="1472108552289" duration="74000" />
-      <workItem from="1472191277026" duration="3191000" />
+      <workItem from="1472191277026" duration="7184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Maximum_TestHIK - 2016.08.26 at 19h 50m 12s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Maximum_TestHIK - 2016.08.26 at 19h 50m 21s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Maximum_TestHIK - 2016.08.26 at 19h 51m 46s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Maximum_TestMHI - 2016.08.26 at 19h 58m 05s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SortDesc_TestHS - 2016.08.26 at 15h 30m 43s.xml">
       <configuration name="SortDesc.TestHS" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SortDesc_TestHS - 2016.08.26 at 15h 30m 55s.xml">
       <configuration name="SortDesc.TestHS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 23m 24s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 23m 33s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 24m 31s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 24m 39s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 25m 43s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Sort_TestHS - 2016.08.26 at 14h 25m 59s.xml">
       <configuration name="Sort.TestHS" configurationId="JUnit" />
@@ -999,13 +1030,16 @@
     <history-entry file="Sort_TestMH - 2016.08.26 at 14h 26m 33s.xml">
       <configuration name="Sort.TestMH" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Sort_TestMH - 2016.08.26 at 19h 48m 31s.xml">
+      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16746000" />
+    <option name="totallyTimeSpent" value="20739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1017,7 +1051,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1185,19 +1219,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="94" selection-end-column="9" />
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java">
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9627119">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48135594">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
