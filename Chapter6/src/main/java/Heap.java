@@ -1,17 +1,19 @@
+import java.util.ArrayList;
+
 /**
  * Created by Administrator on 2016/8/26.
  */
 public class Heap {
 
-    private int[] A;
+    private ArrayList<Integer> A;
 
     private int heapSize;
 
-    public int[] getA() {
+    public ArrayList<Integer> getA() {
         return A;
     }
 
-    public void setA(int[] a) {
+    public void setA(ArrayList<Integer> a) {
         A = a;
     }
 
@@ -22,4 +24,5 @@ public class Heap {
     public void setHeapSize(int heapSize) {
         this.heapSize = heapSize;
     }
+
 }
