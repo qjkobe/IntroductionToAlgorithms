@@ -52,7 +52,7 @@ public class Sort {
             int heapSize = heap.getHeapSize();
             ArrayList<Integer> A = heap.getA();
             int largest;
-            if(l < heapSize && A.get(l) > A.get(l)){
+            if(l < heapSize && A.get(l) > A.get(i)){
                 largest = l;
             }else{
                 largest = i;
@@ -62,7 +62,7 @@ public class Sort {
             }
             if(largest != i){
                 int temp = A.get(i);
-                A.set(i, A.get(largest));
+                A.set(i, heap.getA().get(largest));
                 A.set(largest, temp);
             }else{
                 return;
@@ -139,7 +139,7 @@ public class Sort {
         ArrayList<Integer> C = new ArrayList<>();
         int[] array3 = new int[]{4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
         for(int x : array3){
-            B.add(x);
+            C.add(x);
         }
         heap.setA(C);
         heap.setHeapSize(array2.length);
