@@ -85,7 +85,7 @@ public class Sort {
             int temp = heap.getA().get(i);
             heap.getA().set(i, heap.getA().get(0));
             heap.getA().set(0, temp);
-            heapSize = heapSize - 1;
+            heap.setHeapSize(--heapSize);
             MaxHeapify(heap, 0);
         }
     }
@@ -94,14 +94,14 @@ public class Sort {
     public void TestHS(){
         Heap heap = new Heap();
         ArrayList<Integer> A = new ArrayList<>();
-        int[] array = new int[]{16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
+        int[] array = new int[]{-16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
         for(int x : array){
             A.add(x);
         }
         heap.setA(A);
         heap.setHeapSize(array.length);
         HeapSort(heap);
-        for(int x : A){
+        for(int x : heap.getA()){
             System.out.print(x + " ");
         }
     }
@@ -111,13 +111,14 @@ public class Sort {
         Heap heap = new Heap();
         ArrayList<Integer> A = new ArrayList<>();
         int[] array = new int[]{16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
+
         for(int x : array){
             A.add(x);
         }
         heap.setA(A);
         heap.setHeapSize(array.length);
 
-        MaxHeapify(heap, 1);
+        MaxHeapify(heap, 0);
         for(int x : A){
             System.out.print(x + " ");
         }

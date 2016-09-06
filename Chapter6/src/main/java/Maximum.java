@@ -41,40 +41,97 @@ public class Maximum {
         }
     }
 
-    /**
-     * 好吧。我错了。JAVA的数组声明了以后就不能加元素了呢。果然还是应该用arraylist
-     * @param heap
-     * @param key
-     * @throws Exception
-     */
     public void MaxHeapInsert(Heap heap, int key) throws Exception{
         ArrayList<Integer> A = heap.getA();
         int heapSize = heap.getHeapSize();
-        heapSize = heapSize + 1;
-        A.set(heapSize - 1, Integer.MIN_VALUE);
-        HeapIncreaseKey(heap, heapSize, key);
+        heap.setHeapSize(++heapSize);
+        A.add(Integer.MIN_VALUE);
+        HeapIncreaseKey(heap, heapSize - 1, key);
     }
 
+    /**
+     * 测试HeapMaximum
+     */
+    @Test
+    public void TestHM(){
+        Heap heap = new Heap();
+        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
+        ArrayList<Integer> array = new ArrayList<>();
+        for(int x : A){
+            array.add(x);
+        }
+        heap.setA(array);
+        heap.setHeapSize(A.length);
+
+        sort.BuildMaxHeap(heap);
+        System.out.println(HeapMaximum(heap));
+    }
+
+    /**
+     * 测试HeapExtractMax
+     * @throws Exception
+     */
+    @Test
+    public void TestHEM() throws Exception{
+        Heap heap = new Heap();
+        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
+        ArrayList<Integer> array = new ArrayList<>();
+        for(int x : A){
+            array.add(x);
+        }
+        heap.setA(array);
+        heap.setHeapSize(A.length);
+
+        sort.BuildMaxHeap(heap);
+        System.out.println(HeapExtractMax(heap));
+        for(int i = 0; i < heap.getHeapSize(); i++){
+            System.out.print(heap.getA().get(i) + " ");
+        }
+    }
+
+    /**
+     * 测试MaxHeapInsert
+     * @throws Exception
+     */
     @Test
     public void TestMHI() throws Exception{
-//        Heap heap = new Heap();
-//        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
-//        heap.setA(A);
-//        heap.setHeapSize(A.length);
-//        MaxHeapInsert(heap, 15);
+        Heap heap = new Heap();
+        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
+        ArrayList<Integer> array = new ArrayList<>();
+        for(int x : A){
+            array.add(x);
+        }
+        heap.setA(array);
+        heap.setHeapSize(A.length);
+
+        sort.BuildMaxHeap(heap);
+        MaxHeapInsert(heap, 15);
+        for(int x : heap.getA()){
+            System.out.print(x + " ");
+        }
     }
 
+    /**
+     * 测试HeapIncreaseKey
+     * @throws Exception
+     */
     @Test
     public void TestHIK() throws Exception{
-//        Heap heap = new Heap();
-//        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
-//        heap.setA(A);
-//        heap.setHeapSize(A.length);
-//        HeapIncreaseKey(heap, 8, 15);
-//        for(int x : A){
-//            System.out.print(x + " ");
-//        }
-//        System.out.println();
-//        System.out.println(HeapMaximum(heap));
+        Heap heap = new Heap();
+        int[] A = new int[]{16, 14, 10, 8, 7, 9, 3, 2, 4, 1};
+        ArrayList<Integer> array = new ArrayList<>();
+        for(int x : A){
+            array.add(x);
+        }
+        heap.setA(array);
+        heap.setHeapSize(A.length);
+
+        sort.BuildMaxHeap(heap);
+        HeapIncreaseKey(heap, 8, 15);
+        for(int x : heap.getA()){
+            System.out.print(x + " ");
+        }
+        System.out.println();
+        System.out.println(HeapMaximum(heap));
     }
 }

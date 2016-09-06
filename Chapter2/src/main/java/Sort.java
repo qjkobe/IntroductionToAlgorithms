@@ -11,7 +11,7 @@ public class Sort {
      */
     public void InsertionSort(int[] A){
         int key;
-        for(int j = 1;j < A.length; j++){
+        for(int j = 1; j < A.length; j++){
             key = A[j];
             int i = j - 1;
             while(i >= 0 && A[i] < key){

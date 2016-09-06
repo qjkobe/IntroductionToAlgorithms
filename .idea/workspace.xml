@@ -35,46 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39087948">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="71" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="9" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maximum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Maximum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.60749185">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#193#194#0" expanded="true" />
@@ -84,12 +61,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortDesc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java">
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-              <folding />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,16 +93,16 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Chapter2/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter2/src/main/java/Sort.java" />
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/Main.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/ParentRunner.class" />
         <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java" />
-        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/Heap.java" />
+        <option value="$PROJECT_DIR$/Chapter2/src/main/java/Sort.java" />
         <option value="$PROJECT_DIR$/Chapter6/src/main/java/Sort.java" />
+        <option value="$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java" />
       </list>
     </option>
   </component>
@@ -241,10 +221,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntroductionToAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntroductionToAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntroductionToAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntroductionToAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -257,35 +301,14 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Node.js\node.exe" />
     <property name="last_opened_file_path" value="E:/companyWork/oudot_app" />
   </component>
-  <component name="RunManager" selected="JUnit.Sort.TestMH">
-    <configuration default="false" name="Sort.TestMH" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Maximum.TestMHI">
+    <configuration default="false" name="Sort.TestHS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chapter6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Sort" />
-      <option name="METHOD_NAME" value="TestMH" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SortDesc.TestHS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter6" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortDesc" />
       <option name="METHOD_NAME" value="TestHS" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -300,14 +323,35 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Maximum.TestHIK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Maximum.TestHM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chapter6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Maximum" />
-      <option name="METHOD_NAME" value="TestHIK" />
+      <option name="METHOD_NAME" value="TestHM" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Maximum.TestHEM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Chapter6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Maximum" />
+      <option name="METHOD_NAME" value="TestHEM" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -342,14 +386,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Heap.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Maximum.TestHIK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Chapter6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Heap" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Maximum" />
+      <option name="METHOD_NAME" value="TestHIK" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -975,19 +1019,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Maximum.TestHM" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Maximum.TestHEM" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Maximum.TestMHI" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Heap.Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Sort.TestMH" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Heap.Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Maximum.TestMHI" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SortDesc.TestHS" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Maximum.TestMHI" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Maximum.TestHIK" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Maximum.TestHEM" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Maximum.TestHM" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Sort.TestHS" />
       </list>
     </recent_temporary>
   </component>
@@ -1006,44 +1050,45 @@
       <workItem from="1472047714331" duration="1751000" />
       <workItem from="1472108552289" duration="74000" />
       <workItem from="1472191277026" duration="7421000" />
-      <workItem from="1473074757623" duration="10774000" />
+      <workItem from="1473074757623" duration="14759000" />
+      <workItem from="1473171049970" duration="3372000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortDesc_TestHS - 2016.08.26 at 15h 30m 55s.xml">
-      <configuration name="SortDesc.TestHS" configurationId="JUnit" />
+    <history-entry file="Maximum_TestHIK - 2016.09.06 at 22h 54m 12s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestHS - 2016.08.26 at 14h 25m 59s.xml">
-      <configuration name="Sort.TestHS" configurationId="JUnit" />
+    <history-entry file="Maximum_TestHIK - 2016.09.06 at 22h 54m 26s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.26 at 14h 26m 12s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestHIK - 2016.09.06 at 22h 55m 09s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.26 at 14h 26m 33s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestHIK - 2016.09.06 at 22h 58m 05s.xml">
+      <configuration name="Maximum.TestHIK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.08.26 at 19h 48m 31s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 22h 58m 13s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.09.05 at 23h 25m 47s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 23h 00m 04s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.09.05 at 23h 27m 49s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 23h 00m 32s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.09.05 at 23h 28m 19s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 23h 01m 27s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.09.05 at 23h 30m 00s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 23h 01m 47s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Sort_TestMH - 2016.09.05 at 23h 30m 34s.xml">
-      <configuration name="Sort.TestMH" configurationId="JUnit" />
+    <history-entry file="Maximum_TestMHI - 2016.09.06 at 23h 02m 47s.xml">
+      <configuration name="Maximum.TestMHI" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31750000" />
+    <option name="totallyTimeSpent" value="39107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1061,7 +1106,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1072,6 +1116,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1087,7 +1132,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1107,15 +1152,27 @@
     <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,12 +1194,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1169,12 +1222,6 @@
           <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1193,12 +1240,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1217,12 +1258,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1231,6 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,6 +1298,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.096774">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="29" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,13 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2/src/main/java/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07457627">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.892857">
@@ -1300,11 +1330,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33224756">
+          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter2/src/main/java/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25081432">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/SortDesc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.6840391">
           <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,53 +1373,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java">
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Maximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60749185">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="9" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33224756">
-          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6/src/main/java/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39087948">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
