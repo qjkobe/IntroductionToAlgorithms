@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Random;
+
 /**
  * Created by Administrator on 2016/9/8.
  */
@@ -49,7 +51,8 @@ public class QuickSort {
     }
 
     public int RandomizedPartition(int[] A, int p, int r){
-        int i = (int) Math.round(Math.random()*(r - p) + p);
+        Random random=new Random();
+        int i = random.nextInt(r - p + 1) + p;
         int temp = A[r];
         A[r] = A[i];
         A[i] = temp;
@@ -59,8 +62,8 @@ public class QuickSort {
     public void RandomizedQuciksort(int[] A, int p, int r){
         if(p < r){
             int q = RandomizedPartition(A, p, r);
-            RandomizedPartition(A, p, q - 1);
-            RandomizedPartition(A, q + 1, r);
+            RandomizedQuciksort(A, p, q - 1);
+            RandomizedQuciksort(A, q + 1, r);
         }
     }
 
@@ -71,7 +74,39 @@ public class QuickSort {
         for(int x : A){
             System.out.println(x);
         }
+//        while(true) {
+//            Random random = new Random();
+//            int i = random.nextInt(7 - 6 + 1) + 6;
+//            System.out.println(i);
+//        }
     }
 
+    public void qsort(int[] A, int left, int right){
+        if(left < right) {
+            int key = A[left];
+            int low = left, high = right;
+            while (low < high) {
+                while (low < high && A[high] > key) {
+                    high--;
+                }
+                A[low] = A[high];
+                while (low < high && A[low] < key) {
+                    low++;
+                }
+                A[high] = A[low];
+            }
+            A[low] = key;
+            qsort(A, left, low - 1);
+            qsort(A, low + 1, right);
+        }
+    }
 
+    @Test
+    public void testQsort(){
+        int[] A = new int[]{2, 8, 7, 1, 3, 5, 6, 4};
+        qsort(A, 0, 7);
+        for(int x : A){
+            System.out.println(x);
+        }
+    }
 }
