@@ -47,4 +47,31 @@ public class QuickSort {
             System.out.println(x);
         }
     }
+
+    public int RandomizedPartition(int[] A, int p, int r){
+        int i = (int) Math.round(Math.random()*(r - p) + p);
+        int temp = A[r];
+        A[r] = A[i];
+        A[i] = temp;
+        return Partition(A, p, r);
+    }
+
+    public void RandomizedQuciksort(int[] A, int p, int r){
+        if(p < r){
+            int q = RandomizedPartition(A, p, r);
+            RandomizedPartition(A, p, q - 1);
+            RandomizedPartition(A, q + 1, r);
+        }
+    }
+
+    @Test
+    public void TestRQS(){
+        int[] A = new int[]{2, 8, 7, 1, 3, 5, 6, 4};
+        RandomizedQuciksort(A, 0, 7);
+        for(int x : A){
+            System.out.println(x);
+        }
+    }
+
+
 }
