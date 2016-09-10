@@ -50,6 +50,9 @@ public class QuickSort {
         }
     }
 
+    /**
+     * 快速排序随机取标志位版本
+     */
     public int RandomizedPartition(int[] A, int p, int r){
         Random random=new Random();
         int i = random.nextInt(r - p + 1) + p;
@@ -67,6 +70,9 @@ public class QuickSort {
         }
     }
 
+    /**
+     * 测试快速排序随机版
+     */
     @Test
     public void TestRQS(){
         int[] A = new int[]{2, 8, 7, 1, 3, 5, 6, 4};
@@ -81,6 +87,11 @@ public class QuickSort {
 //        }
     }
 
+    /** 数据结构版快速排序（广为中国人所知）
+     * @param A 待排序数组
+     * @param left 左边下界
+     * @param right 右边上界
+     */
     public void qsort(int[] A, int left, int right){
         if(left < right) {
             int key = A[left];
@@ -101,6 +112,9 @@ public class QuickSort {
         }
     }
 
+    /**
+     * 测试数据结构版快速排序
+     */
     @Test
     public void testQsort(){
         int[] A = new int[]{2, 8, 7, 1, 3, 5, 6, 4};

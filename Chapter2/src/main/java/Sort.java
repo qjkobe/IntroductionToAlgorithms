@@ -98,6 +98,9 @@ public class Sort {
         }
     }
 
+    /**
+     * 测试插入排序
+     */
     @Test
     public void TestIS(){
         int[] A = new int[]{4, 2, 3};
@@ -107,6 +110,9 @@ public class Sort {
         }
     }
 
+    /**
+     * 测试合并排序
+     */
     @Test
     public void TestMS(){
         int[] A = new int[]{4, 2, 3, 7, 5};
@@ -116,6 +122,9 @@ public class Sort {
         }
     }
 
+    /**
+     * 测试二进制数相加
+     */
     @Test
     public void TestBA(){
         int[] A = new int[]{1, 0, 1};
